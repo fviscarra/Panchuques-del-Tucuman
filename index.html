@@ -1,21 +1,148 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <title>Panchuques del Tucumán</title>
+    <title>Panchuques de tucuman</title>
 </head>
 <body>
-    <div id="app"></div>
+    <div class="container-fluid">
+        <header id="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img src="imgen/logo-definitivo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end fixed bg-white text-black " id="navbarNav">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item ">
+                        <a class="nav-link active hover" href="#">nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link hover" href="#">servicios</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link hover" href="#">blog</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link hover" href="#" tabindex="-1" aria-disabled="true">contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="img-header">
+                <div class="bienvenidos">
+                    <h1>bienvenidos a panchuques tucuman</h1>
+                    <hr>
+                    <p>Panchuques de Tucuman</p>
+                    <button class="btn btn-danger"> ver abajo</button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="acerca-de">
+                <div class="info-container">
+                    <h1>Acerca de nosotros </h1>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam ratione, accusantium perferendis expedita inventore eveniet, cumque perspiciatis minima saepe nemo veritatis corporis sit molestias alias natus aut facere velit doloremque!</p>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 
+                    <div class="gallery"></div>
+                    <div>
+                        <button class="btn btn-success"> Leer Mas</button>
+                    </div>
+                </div>
+            </section>
+            <section id="preparacion" class="row">
+                <div class="deg-background"></div>
+                <div class="ejeZproyect d-none">
+                    <div class="Preparacion1 container">
+                        <div class="title-proyect">
+                            <h2>Preparacion de Panchuque</h2>
+                            <hr>
+                        </div>
+                        <div class="preparado-img">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 col-6" >
+                    <img src="imgen/testimonio1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">testimonio1</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card mb-3 col-6">
+                    <img src="imgen/testimonio2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">testimonio2</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card mb-3 col-6">
+                    <img src="imgen/testimonio3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">testimonio3</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card mb-3 col-6">
+                    <img src="imgen/testimonio4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">testimonio4</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <div class="deg-footer"></div>
+            <div class="ejeZfooter">
+                <div class="footer-content">
+                    <div class="footer-title">
+                        <h2>formulario de contacto</h2>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="form-contact">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+            <div class="footer-text">
+                <p>&copy; Panchuques de Tucuman 2020 | Dineñado por Viscarra fernando</p>
+            </div>
+        </footer>
+    </div>
+    
 
     <script src="https://kit.fontawesome.com/5363691eaa.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script src="js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>

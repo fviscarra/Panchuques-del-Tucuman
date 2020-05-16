@@ -1,12 +1,68 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-img {
-    width: 100px;
-    height: 50px;
+body {
+    background-color:white;
+    font-family: 'Raleway', sans-serif;
 }
-.container-fluid {
+img {
+    width: 120px;
+}
+.footer-text {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.nav-bar {
+    position:;
+}
+.hover:hover {
+    border-radius: 2em;
+    background-color: red;
+    color: white;
+}
+.img-header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../imgen/imagen4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.img-header .bienvenidos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img-header .bienvenidos h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 200;
+}
+.img-header .bienvenidos hr {
+    width: 400px;
+    height: 2px;
+    background: white;
+    border: none;
     margin-top: 5px;
+}
+.img-header .bienvenidos p {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.img-header .bienvenidos .btn:hover {
+    background-color: lightblue;
+    border: lightblue;
+    color: white;
 }
