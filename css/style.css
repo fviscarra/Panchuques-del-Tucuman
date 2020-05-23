@@ -7,6 +7,10 @@ body {
     background-color:white;
     font-family: 'Raleway', sans-serif;
 }
+#header .navbar {
+    width: 100%;
+    opacity: 0.8;
+}
 img {
     width: 120px;
 }
@@ -15,8 +19,9 @@ img {
     color: white;
     text-align: center;
 }
-.nav-bar {
-    position:;
+.nav-item a {
+    color: black;
+    font-size: 18px;
 }
 .hover:hover {
     border-radius: 2em;
@@ -63,6 +68,117 @@ img {
 }
 .img-header .bienvenidos .btn:hover {
     background-color: lightblue;
-    border: lightblue;
+    border:none;
     color: white;
+}
+#acerca-de {
+    width: 100%;
+    margin-top: 120px;
+}
+#acerca-de .info-container {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#acerca-de .info-container h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#acerca-de .info-container p {
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    line-height: 35px;
+    margin: 10 0;
+}
+#acerca-de .info-container .about-gallery {
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+#acerca-de .info-container .about-gallery img {
+    width: 25%;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid lightslategray;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#acerca-de .info-container .boton {
+    width: 100%;
+    text-align: center;
+}
+#acerca-de .info-container .boton .btn:hover {
+    border: none;
+    background: lightblue;
+}
+#preparacion {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../imgen/imagen1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 100px;
+}
+#preparacion .deg-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8) ;
+}
+#preparacion .ejeZproyect {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#preparacion .ejeZproyect .container-preparacion {
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+}
+#preparacion .container-preparacion .container-title {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #fff;
+    width: 50%;
+    margin: auto;
+}
+#preparacion .container-preparacion .container-title h2 {
+    font-size: 40px;
+    color: white;
+    font-weight: normal;
+}
+#preparacion .container-preparacion .container-title hr {
+    background-color: white;
+    width: 50%;
+    margin: 10px auto;
+}
+#preparacion .card-preparacion {
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+#preparacion .card-preparacion .preparado {
+    border-radius: 1em;
+    margin: 20px 30px;
+    text-align: center;
+    min-height: 348px;
+    color: white;
+}
+#testimonios .card {
+    margin: 10px auto;
+}
+.testimonio-title {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
 }
