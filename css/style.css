@@ -298,8 +298,7 @@ body {
     color: white;
 }
 #footer .footer-content .footer-text {
-    position: absolute;
-    bottom: 0;
+    margin-bottom: -26px;
     left: 0;
     width: 100%;
     min-height: 10%;
