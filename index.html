@@ -9,11 +9,11 @@
     <title>Panchuques de tucuman</title>
 </head>
 <body>
-    <div class="container-fluid">
+    <div>
         <header id="header">
             <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
                 <a class="navbar-brand" href="#">
-                    <img src="imgen/logo-definitivo.png" alt="">
+                    <img src="imgen/logo-definitivo.png" alt="" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@
                 </div>
             </div>
         </header>
-        <main>
+        <main class="container">
             <section id="acerca-de">
                 <div class="info-container">
                     <h1>Acerca de nosotros </h1>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </section>
-            <section id="preparacion" class="row">
+            <div>
                 <div class="deg-background"></div>
                 <div class="ejeZproyect d-none">
                     <div class="Preparacion1 container">
@@ -70,32 +70,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3 col-6" >
-                    <img src="imgen/testimonio1.jpg" class="card-img-top" alt="...">
+            </div>
+            <section id="preparacion" class="row">
+                <div class="card mb-3 col-md-6">
+                    <img src="imgen/testimonio1.jpg" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">testimonio1</h5>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                   </div>
-                  <div class="card mb-3 col-6">
-                    <img src="imgen/testimonio2.jpg" class="card-img-top" alt="...">
+                  <div class="card mb-3 col-md-6">
+                    <img src="imgen/testimonio2.jpg" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">testimonio2</h5>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                   </div>
-                  <div class="card mb-3 col-6">
-                    <img src="imgen/testimonio3.jpg" class="card-img-top" alt="...">
+                  <div class="card mb-3 col-md-6">
+                    <img src="imgen/testimonio3.jpg" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">testimonio3</h5>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                   </div>
-                  <div class="card mb-3 col-6">
-                    <img src="imgen/testimonio4.jpg" class="card-img-top" alt="...">
+                  <div class="card mb-3 col-md-6">
+                    <img src="imgen/testimonio4.jpg" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">testimonio4</h5>
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -103,35 +105,37 @@
                     </div>
                   </div>
             </section>
-        </main>
-        <footer id="footer">
-            <div class="deg-footer"></div>
-            <div class="ejeZfooter">
-                <div class="footer-content">
-                    <div class="footer-title">
-                        <h2>formulario de contacto</h2>
-                        <hr>
+            <section id="contact">
+                <div class="deg-footer"></div>
+                <div class="ejeZfooter">
+                    <div class="footer-content">
+                        <div class="footer-title">
+                            <h2>formulario de contacto</h2>
+                            <hr>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="form-contact">
-                <form>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
-            </div>
+                <div class="form-contact">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" />
+                        </div>
+                        <div class="form-group form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
             <div class="footer-text">
                 <p>&copy; Panchuques de Tucuman 2020 | Dineñado por Viscarra fernando</p>
             </div>
